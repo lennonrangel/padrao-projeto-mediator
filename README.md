@@ -2,11 +2,13 @@
 
 Projeto desenvolvido para a disciplina de **Arquitetura e Projeto de Software**.
 
-## Descrição
-
 Este projeto demonstra a implementação do padrão comportamental **Mediator**, que tem como objetivo reduzir as dependências caóticas entre objetos, fazendo com que eles se comuniquem indiretamente, através de um objeto mediador central.
 
 O padrão foi aplicado para modelar um sistema de **central de atendimento ao cliente**. O `Cliente` nunca se comunica diretamente com o `Suporte` — toda comunicação passa obrigatoriamente pela `CentralDeAtendimento`, que coordena, repassa e formata as respostas.
+
+## Diagrama de Classes:
+
+<img width="1024" height="1083" alt="Image" src="https://github.com/user-attachments/assets/457bad94-48aa-4707-9b8c-d4f95c6b2f27" />
 
 ## Estrutura
 
